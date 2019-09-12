@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gitbook build",
-    "publish": "node scripts/publish",
+    "publish": "npm run build && node scripts/publish",
     "pdf": "gitbook pdf"
   },
   "repository": {
